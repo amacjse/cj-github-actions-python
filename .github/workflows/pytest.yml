@@ -8,10 +8,8 @@ jobs:
    steps:
      - name: clone repository
        run: 
-         pwd
          git clone https://github.com/amacjse/cj-github-actions-python
          cd cj-github-actions-python
-         pwd
      - name: install pytest
        run: pip install pytest
      - name: run pytest
